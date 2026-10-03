@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="620" viewBox="0 0 1440 620" role="img" aria-labelledby="title desc">
+  <title id="title">Simulink Formula Modeler — From equations to editable models</title>
+  <desc id="desc">Project illustration with a mass spring damper equation, a native block diagram, and a symbolic transfer function. Actual application screenshots are shown below in the README.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="0.6"><stop stop-color="#0b1224"/><stop offset="1" stop-color="#222b50"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#c7d2fe" stroke-opacity="0.04"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0l10 5-10 5" fill="none" stroke="#67e8f9" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1440" height="620" rx="20" fill="url(#bg)"/>
+  <rect width="1440" height="620" rx="20" fill="url(#grid)"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="64" y="60" width="44" height="44" rx="12" fill="#17364a" stroke="#67e8f9"/>
+    <text x="86" y="91" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="30" fill="#67e8f9">f</text>
+    <text x="124" y="80" font-size="25" font-weight="600" fill="#f1f5f9">Simulink Formula Modeler</text>
+    <text x="124" y="104" font-size="13" letter-spacing="2" fill="#94a3b8">MATLAB · MODELING · ANALYSIS</text>
+    <text x="64" y="219" font-size="57" font-weight="700" fill="#f8fafc">Start with equations.</text>
+    <text x="64" y="290" font-size="57" font-weight="700" fill="url(#accent)">Build. Extract. Analyze.</text>
+    <text x="67" y="347" font-size="22" fill="#cbd5e1">Editable models. Traceable mathematics.</text>
+    <text x="67" y="383" font-size="18" fill="#94a3b8">Native Simulink blocks, symbolic transfer functions,</text>
+    <text x="67" y="411" font-size="18" fill="#94a3b8">and local linearization in one MATLAB workflow.</text>
+    <rect x="64" y="461" width="135" height="37" rx="18" fill="#1f3048" stroke="#38506c"/>
+    <text x="131" y="486" text-anchor="middle" font-size="15" fill="#bae6fd">MATLAB R2022a</text>
+    <rect x="211" y="461" width="141" height="37" rx="18" fill="#1f3048" stroke="#38506c"/>
+    <text x="281" y="486" text-anchor="middle" font-size="15" fill="#bae6fd">121 tests passed</text>
+    <rect x="364" y="461" width="118" height="37" rx="18" fill="#1f3048" stroke="#38506c"/>
+    <text x="423" y="486" text-anchor="middle" font-size="15" fill="#bae6fd">Local workflow</text>
+    <text x="67" y="555" font-size="15" fill="#7185a5">ODEs / SLX / State space / Transfer functions / LaTeX</text>
+    <rect x="801" y="64" width="567" height="155" rx="16" fill="#101d32" stroke="#40516e"/>
+    <circle cx="827" cy="88" r="4" fill="#67e8f9"/><text x="843" y="94" font-size="13" letter-spacing="2" fill="#a5b4cf">01  FORMULA</text>
+    <g font-family="Consolas,monospace" font-size="22" fill="#e2e8f0"><text x="830" y="141">der(x) = v</text><text x="830" y="177">der(v) = (F - c*v - k*x) / m</text></g>
+    <path d="M1084 221v27" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="801" y="257" width="567" height="151" rx="16" fill="#101d32" stroke="#40516e"/>
+    <circle cx="827" cy="281" r="4" fill="#67e8f9"/><text x="843" y="287" font-size="13" letter-spacing="2" fill="#a5b4cf">02  EDITABLE MODEL</text>
+    <g stroke="#67e8f9" stroke-width="2" fill="#162b42"><rect x="859" y="320" width="85" height="49" rx="7"/><rect x="1005" y="320" width="85" height="49" rx="7"/><rect x="1151" y="320" width="85" height="49" rx="7"/></g>
+    <g font-size="20" fill="#e0f2fe" text-anchor="middle"><text x="902" y="352">1/m</text><text x="1047" y="352">1/s</text><text x="1193" y="352">1/s</text></g>
+    <g fill="none" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow)"><path d="M829 345h28"/><path d="M945 345h58"/><path d="M1091 345h58"/><path d="M1237 345h69"/></g>
+    <text x="974" y="335" font-size="14" fill="#94a3b8">a</text><text x="1120" y="335" font-size="14" fill="#94a3b8">v</text><text x="1320" y="351" font-size="18" fill="#c4b5fd">x</text>
+    <text x="830" y="391" font-size="11" fill="#94a3b8">Forward path shown; damping and stiffness feedback omitted.</text>
+    <path d="M1084 410v27" stroke="#67e8f9" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="801" y="446" width="567" height="121" rx="16" fill="#101d32" stroke="#40516e"/>
+    <circle cx="827" cy="470" r="4" fill="#a78bfa"/><text x="843" y="476" font-size="13" letter-spacing="2" fill="#a5b4cf">03  SYMBOLIC ANALYSIS</text>
+    <text x="832" y="530" font-family="Consolas,monospace" font-size="26" fill="#c4b5fd">G(s) = 1 / (m s² + c s + k)</text>
+  </g>
+</svg>
