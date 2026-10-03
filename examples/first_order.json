@@ -1,0 +1,9 @@
+{
+  "name": "fm_first_order",
+  "states": ["x"],
+  "inputs": ["u"],
+  "parameters": {"a": 2, "b": 3},
+  "initial": {"x": 0},
+  "equations": ["der(x) = -a*x+b*u"],
+  "outputs": {"y": "x"}
+}

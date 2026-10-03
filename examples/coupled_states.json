@@ -1,0 +1,9 @@
+{
+  "name": "fm_coupled_states",
+  "states": ["x1", "x2"],
+  "inputs": ["u1", "u2"],
+  "parameters": {"a": 2, "b": 1, "c": 3},
+  "initial": {"x1": 0, "x2": 0},
+  "equations": ["der(x1) = -a*x1+u1", "der(x2) = b*x1-c*x2+u2"],
+  "outputs": {"y1": "x1", "y2": "x2"}
+}

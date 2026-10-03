@@ -1,0 +1,26 @@
+# MATLAB / Simulink generated files
+slprj/
+*_grt_rtw/
+*_ert_rtw/
+*.slxc
+*.autosave
+*.asv
+*.mex*
+*.log
+
+# Local exports, test runs and development history
+/artifacts/
+/.hermes/
+/docs/implementation-contract.md
+/docs/v2-contract.md
+
+# Credentials and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

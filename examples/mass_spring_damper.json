@@ -1,0 +1,9 @@
+{
+  "name": "fm_mass_spring_damper",
+  "states": ["x", "v"],
+  "inputs": ["F"],
+  "parameters": {"m": 2, "c": 1, "k": 3},
+  "initial": {"x": 0, "v": 0},
+  "equations": ["der(x) = v", "der(v) = (F-c*v-k*x)/m"],
+  "outputs": {"position": "x", "velocity": "v"}
+}

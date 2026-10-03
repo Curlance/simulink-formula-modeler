@@ -1,0 +1,9 @@
+{
+  "name": "fm_nonlinear_equilibrium",
+  "states": ["x"],
+  "inputs": ["u"],
+  "parameters": {"a": 1},
+  "initial": {"x": 1},
+  "equations": ["der(x) = -a*x^3+u"],
+  "outputs": {"y": "x^2"}
+}
